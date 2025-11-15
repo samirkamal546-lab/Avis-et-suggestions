@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Opportunités de stage</title>
+  <style>
+    body { font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; line-height:1.6; margin:0; padding:0; background:#f7f7f9; color:#111; }
+    .container { max-width:900px; margin:28px auto; padding:20px; background:#fff; box-shadow:0 6px 18px rgba(0,0,0,0.06); border-radius:10px; }
+    header { text-align:center; margin-bottom:18px; }
+    h1 { margin:6px 0 4px; font-size:28px; }
+    p.lead { color:#555; margin-top:0; }
+    .company { display:flex; gap:18px; align-items:flex-start; padding:16px 0; border-top:1px solid #eee; }
+    .company:first-of-type { border-top: none; }
+    .thumb { flex:0 0 260px; max-width:260px; }
+    .thumb img { width:100%; height:auto; border-radius:8px; display:block; }
+    .meta { flex:1 1 auto; }
+    .meta h2 { margin:0 0 6px; font-size:20px; }
+    .meta p { margin:6px 0; color:#333; }
+    .quote { margin:8px 0; padding:10px 12px; background:#f1f8ff; border-left:4px solid #6fa8ff; border-radius:6px; color:#0b2a4a; }
+    footer { text-align:center; color:#777; font-size:13px; margin-top:18px; }
+    .replace-note { font-size:13px; color:#666; margin-top:8px; }
+    @media (max-width:720px) {
+      .company { flex-direction:column; }
+      .thumb { width:100%; max-width:none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Opportunités de stage et suggestions</h1>
+      <p class="lead">Extraits et suggestions tirés du document fourni. (Remplacez les images placeholder par vos photos ou logos.)</p>
+    </header>
+
+    <!-- ONCF -->
+    <section class="company">
+      <div class="thumb">
+        <!-- Remplacez images/oncf.jpg par votre image réelle -->
+        <img src="https://via.placeholder.com/640x360?text=ONCF+-+Train" alt="ONCF - stage">
+      </div>
+      <div class="meta">
+        <h2>1 — Office National des Chemins de Fer (ONCF)</h2>
+        <p>L’ONCF offre de nombreux stages dans différents domaines comme le data science, la cybersécurité et la logistique.</p>
+        <div class="quote">
+          <strong>HAMZA (Cybersécurité) :</strong>
+          <div>« Je suis ravi de rejoindre l’ONCF en tant que stagiaire en cyber sécurité. Ce stage représente une excellente opportunité pour approfondir mes connaissances en protection des systèmes d’information et contribuer à la sécurisation des infrastructures ferroviaires. »</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Inwi & Orange -->
+    <section class="company">
+      <div class="thumb">
+        <img src="https://via.placeholder.com/640x360?text=inwi+%26+Orange" alt="Inwi et Orange logos">
+      </div>
+      <div class="meta">
+        <h2>2 — Inwi & Orange</h2>
+        <p>Ces entreprises offrent des stages de qualité pour les étudiants talentueux dans la gestion des réseaux, cybersécurité et le commerce.</p>
+        <div class="quote">
+          <strong>WISSAL (Cybersécurité) :</strong>
+          <div>« Je suis ravie d’annoncer mon intégration en tant que stagiaire chez inwi. Ce stage représente une opportunité unique pour approfondir mes compétences en réseaux et cybersécurité… »</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Oracle -->
+    <section class="company">
+      <div class="thumb">
+        <img src="https://via.placeholder.com/640x360?text=Oracle" alt="Oracle Maroc">
+      </div>
+      <div class="meta">
+        <h2>3 — Oracle</h2>
+        <p>Oracle a renforcé sa présence dans le pays en inaugurant un centre R&amp;D à Casablanca et propose des stages en IA, cloud et data science.</p>
+        <p><strong>Abdjallil (1ère année ESI - data science) :</strong> « J’ai eu le plaisir et la chance d’avoir un stage de qualité chez Oracle pour renforcer mes connaissances en sciences de données. »</p>
+      </div>
+    </section>
+
+    <!-- 3T Développement -->
+    <section class="company">
+      <div class="thumb">
+        <img src="https://via.placeholder.com/640x360?text=3T+Développement" alt="3T Développement">
+      </div>
+      <div class="meta">
+        <h2>4 — 3T Développement Maroc</h2>
+        <p>Groupe multimarque actif dans la restauration, le fitness et le retail (ex : O’Tacos, Fitness Park). Depuis 2022, master franchisé Fitness Park au Maroc. Offre souvent des stages en data science.</p>
+      </div>
+    </section>
+
+    <!-- Lotus Capital Gestion -->
+    <section class="company">
+      <div class="thumb">
+        <img src="https://via.placeholder.com/640x360?text=Lotus+Capital+Gestion" alt="Lotus Capital Gestion">
+      </div>
+      <div class="meta">
+        <h2>5 — Lotus Capital Gestion</h2>
+        <p>Première société marocaine spécialisée dans le trading quantitatif et la fintech. Travaille avec traders, analystes quantitatifs et développeurs pour construire des stratégies basées sur l'analyse de données. Offre des stages en data science, cybersécurité et motion design.</p>
+      </div>
+    </section>
+
+    <!-- Sofrecom -->
+    <section class="company">
+      <div class="thumb">
+        <img src="https://via.placeholder.com/640x360?text=Sofrecom+Maroc" alt="Sofrecom Maroc">
+      </div>
+      <div class="meta">
+        <h2>6 — Sofrecom</h2>
+        <p>Acteur clé dans les NTIC au Maroc : ingénierie logicielle, conseil, ingénierie réseaux mobiles, veille technologique. Propose des stages en data science, ingénierie radio, IA et développement Java/PHP.</p>
+      </div>
+    </section>
+
+    <!-- Stagiaires.ma -->
+    <section class="company">
+      <div class="thumb">
+        <img src="https://via.placeholder.com/640x360?text=Stagiaires.ma" alt="Stagiaires.ma">
+      </div>
+      <div class="meta">
+        <h2>7 — Stagiaires.ma</h2>
+        <p>Site web pour chercher des stages localement selon la filière ; propose des opportunités dans des grandes, moyennes entreprises ou start-ups.</p>
+      </div>
+    </section>
+
+    <p class="replace-note">Remarque : les images ci-dessous sont des placeholders générées automatiquement. Pour les remplacer par de vrais logos/photos, placez vos fichiers dans un dossier <code>images/</code> et changez les attributs <code>src</code> (ex. <code>images/oracle.jpg</code>).</p>
+
+    <footer>
+      <p>Page générée à partir de ton document. Si tu veux que j’insère des photos réelles (logos, images entreprises), je peux les ajouter — indique uniquement lesquelles.</p>
+    </footer>
+  </div>
+</body>
+</html>
